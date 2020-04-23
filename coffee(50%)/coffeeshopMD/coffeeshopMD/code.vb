@@ -3,7 +3,11 @@ Imports System.Data.SqlClient
 
 Module code
     'ฐานข้อมูล'
+<<<<<<< HEAD
     Friend cn As New SqlConnection("Data Source=.\SQLEXPRESS; Initial Catalog=coffeeshopmd; Integrated Security=SSPI;")
+=======
+    Friend cn As New SqlConnection("Data Source=LAPTOP-598BT430\SQLEXPRESS1; Initial Catalog=coffeeshopmd; Integrated Security=SSPI;")
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
     Friend cmd As New SqlCommand
     Friend DA As New SqlDataAdapter
     Friend sql As String

@@ -22,6 +22,7 @@ C:\Users\WINDOWS10\Desktop\coffeeshop\coffeeshopMD\coffeeshopMD\obj\Debug\coffee
 C:\Users\WINDOWS10\Desktop\coffeeshop\coffeeshopMD\coffeeshopMD\obj\Debug\coffeeshopMD.frm_manage_coffee.resources
 C:\Users\WINDOWS10\Desktop\coffeeshop\coffeeshopMD\coffeeshopMD\obj\Debug\coffeeshopMD.frm_coffeeSale.resources
 C:\Users\WINDOWS10\Desktop\coffeeshop\coffeeshopMD\coffeeshopMD\obj\Debug\coffeeshopMD.frm_select_price.resources
+<<<<<<< HEAD
 C:\Users\pongp\OneDrive\Desktop\CoffeeshopMD-master\coffee(50%)\coffeeshopMD\coffeeshopMD\bin\Debug\coffeeshopMD.exe.config
 C:\Users\pongp\OneDrive\Desktop\CoffeeshopMD-master\coffee(50%)\coffeeshopMD\coffeeshopMD\bin\Debug\coffeeshopMD.exe
 C:\Users\pongp\OneDrive\Desktop\CoffeeshopMD-master\coffee(50%)\coffeeshopMD\coffeeshopMD\bin\Debug\coffeeshopMD.pdb
@@ -48,3 +49,5 @@ C:\Users\pongp\OneDrive\Desktop\CoffeeshopMD-master\coffee(50%)\coffeeshopMD\cof
 C:\Users\pongp\OneDrive\Desktop\CoffeeshopMD-master\coffee(50%)\coffeeshopMD\coffeeshopMD\obj\Debug\coffeeshopMD.xml
 C:\Users\pongp\OneDrive\Desktop\CoffeeshopMD-master\coffee(50%)\coffeeshopMD\coffeeshopMD\obj\Debug\coffeeshopMD.pdb
 C:\Users\pongp\OneDrive\Desktop\CoffeeshopMD-master\coffee(50%)\coffeeshopMD\coffeeshopMD\bin\Debug\Bunifu_UI_v1.52.dll
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
