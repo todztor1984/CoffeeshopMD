@@ -32,6 +32,19 @@ coffeeshopMD
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
+<member name="P:coffeeshopMD.My.Resources.Resources._123">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:coffeeshopMD.My.Resources.Resources._16348">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
 <member name="P:coffeeshopMD.My.Resources.Resources._2">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -42,6 +55,14 @@ coffeeshopMD
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
+<member name="P:coffeeshopMD.My.Resources.Resources._93687084_1427100624135945_6986415204942741504_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
 <member name="P:coffeeshopMD.My.Resources.Resources._94">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

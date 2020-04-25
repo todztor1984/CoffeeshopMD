@@ -63,6 +63,12 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>D:\PP\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
     <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.19\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
@@ -75,6 +81,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+<<<<<<< HEAD
+    <Reference Include="System.Management" />
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -133,6 +143,10 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+<<<<<<< HEAD
+      <DesignTime>True</DesignTime>
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -231,5 +245,17 @@
   <ItemGroup>
     <None Include="Resources\dufault_coffee.png" />
   </ItemGroup>
+<<<<<<< HEAD
+  <ItemGroup>
+    <None Include="Resources\16348.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93687084_1427100624135945_6986415204942741504_n.png" />
+  </ItemGroup>
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
