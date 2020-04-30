@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32878ED8-7726-41F5-8263-9188E4EC42B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>coffeeshopMD.My.MyApplication</StartupObject>
+    <RootNamespace>coffeeshopMD</RootNamespace>
+    <AssemblyName>coffeeshopMD</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>coffeeshopMD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>coffeeshopMD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+<<<<<<< HEAD
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>D:\PP\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.19\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.19\Assemblies\v4.5.2\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+<<<<<<< HEAD
+    <Reference Include="System.Management" />
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="code.vb" />
+    <Compile Include="frm_coffeeSale.Designer.vb">
+      <DependentUpon>frm_coffeeSale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_coffeeSale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.vb">
+      <DependentUpon>frm_login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_main.Designer.vb">
+      <DependentUpon>frm_main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_manage_coffee.Designer.vb">
+      <DependentUpon>frm_manage_coffee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_manage_coffee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_select_price.Designer.vb">
+      <DependentUpon>frm_select_price.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_select_price.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListView_Control.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+<<<<<<< HEAD
+      <DesignTime>True</DesignTime>
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_coffeeSale.resx">
+      <DependentUpon>frm_coffeeSale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_main.resx">
+      <DependentUpon>frm_main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_manage_coffee.resx">
+      <DependentUpon>frm_manage_coffee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_select_price.resx">
+      <DependentUpon>frm_select_price.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ป้ายร้านกาแฟ-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sell icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saleicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9286.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dufault_coffee.png" />
+  </ItemGroup>
+<<<<<<< HEAD
+  <ItemGroup>
+    <None Include="Resources\16348.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93687084_1427100624135945_6986415204942741504_n.png" />
+  </ItemGroup>
+=======
+>>>>>>> c1ecb6e5919e3946c0d3087c6fd85e5482a63ef3
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
