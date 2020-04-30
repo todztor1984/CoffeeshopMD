@@ -22,6 +22,10 @@ Partial Class frm_login
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
+=======
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_login))
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -35,6 +39,10 @@ Partial Class frm_login
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.chk_remember = New System.Windows.Forms.CheckBox()
+<<<<<<< HEAD
+=======
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.SuspendLayout()
         '
         'Label1
@@ -46,7 +54,11 @@ Partial Class frm_login
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Name = "Label1"
+<<<<<<< HEAD
         Me.Label1.Size = New System.Drawing.Size(439, 45)
+=======
+        Me.Label1.Size = New System.Drawing.Size(704, 45)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "โปรดเข้าสู่ระบบ"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -54,9 +66,16 @@ Partial Class frm_login
         'Label2
         '
         Me.Label2.AutoSize = True
+<<<<<<< HEAD
         Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label2.Location = New System.Drawing.Point(54, 118)
+=======
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(382, 114)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(97, 24)
         Me.Label2.TabIndex = 1
@@ -65,9 +84,16 @@ Partial Class frm_login
         'Label3
         '
         Me.Label3.AutoSize = True
+<<<<<<< HEAD
         Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label3.Location = New System.Drawing.Point(54, 180)
+=======
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(382, 176)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(92, 24)
         Me.Label3.TabIndex = 2
@@ -77,7 +103,11 @@ Partial Class frm_login
         '
         Me.txt_username.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txt_username.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+<<<<<<< HEAD
         Me.txt_username.Location = New System.Drawing.Point(186, 114)
+=======
+        Me.txt_username.Location = New System.Drawing.Point(485, 111)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.txt_username.Name = "txt_username"
         Me.txt_username.Size = New System.Drawing.Size(219, 31)
         Me.txt_username.TabIndex = 3
@@ -86,7 +116,11 @@ Partial Class frm_login
         '
         Me.txt_password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txt_password.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+<<<<<<< HEAD
         Me.txt_password.Location = New System.Drawing.Point(186, 177)
+=======
+        Me.txt_password.Location = New System.Drawing.Point(485, 173)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.txt_password.Name = "txt_password"
         Me.txt_password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
         Me.txt_password.Size = New System.Drawing.Size(219, 31)
@@ -97,7 +131,11 @@ Partial Class frm_login
         Me.btn_login.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.btn_login.Font = New System.Drawing.Font("MingLiU-ExtB", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_login.ForeColor = System.Drawing.SystemColors.ControlLightLight
+<<<<<<< HEAD
         Me.btn_login.Location = New System.Drawing.Point(58, 331)
+=======
+        Me.btn_login.Location = New System.Drawing.Point(343, 418)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.btn_login.Name = "btn_login"
         Me.btn_login.Size = New System.Drawing.Size(136, 46)
         Me.btn_login.TabIndex = 5
@@ -110,7 +148,11 @@ Partial Class frm_login
         Me.btn_exit.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btn_exit.Font = New System.Drawing.Font("MingLiU-ExtB", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_exit.ForeColor = System.Drawing.SystemColors.ControlLightLight
+<<<<<<< HEAD
         Me.btn_exit.Location = New System.Drawing.Point(238, 331)
+=======
+        Me.btn_exit.Location = New System.Drawing.Point(556, 418)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.btn_exit.Name = "btn_exit"
         Me.btn_exit.Size = New System.Drawing.Size(136, 46)
         Me.btn_exit.TabIndex = 6
@@ -120,9 +162,15 @@ Partial Class frm_login
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
+<<<<<<< HEAD
         Me.CheckBox1.BackColor = System.Drawing.Color.White
         Me.CheckBox1.ForeColor = System.Drawing.Color.Black
         Me.CheckBox1.Location = New System.Drawing.Point(199, 214)
+=======
+        Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox1.ForeColor = System.Drawing.Color.White
+        Me.CheckBox1.Location = New System.Drawing.Point(485, 210)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(101, 17)
         Me.CheckBox1.TabIndex = 7
@@ -133,7 +181,11 @@ Partial Class frm_login
         '
         Me.lbl_security_code.BackColor = System.Drawing.Color.White
         Me.lbl_security_code.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+<<<<<<< HEAD
         Me.lbl_security_code.Location = New System.Drawing.Point(243, 249)
+=======
+        Me.lbl_security_code.Location = New System.Drawing.Point(488, 244)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.lbl_security_code.Name = "lbl_security_code"
         Me.lbl_security_code.Size = New System.Drawing.Size(162, 34)
         Me.lbl_security_code.TabIndex = 8
@@ -144,7 +196,11 @@ Partial Class frm_login
         '
         Me.txt_security_code.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txt_security_code.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+<<<<<<< HEAD
         Me.txt_security_code.Location = New System.Drawing.Point(231, 288)
+=======
+        Me.txt_security_code.Location = New System.Drawing.Point(471, 293)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.txt_security_code.Name = "txt_security_code"
         Me.txt_security_code.Size = New System.Drawing.Size(197, 31)
         Me.txt_security_code.TabIndex = 9
@@ -161,36 +217,74 @@ Partial Class frm_login
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
+<<<<<<< HEAD
         Me.Label5.Font = New System.Drawing.Font("Tempus Sans ITC", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(27, 260)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(182, 38)
+=======
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(327, 296)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(128, 24)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.Label5.TabIndex = 11
         Me.Label5.Text = "Security Code"
         '
         'chk_remember
         '
         Me.chk_remember.AutoSize = True
+<<<<<<< HEAD
         Me.chk_remember.BackColor = System.Drawing.Color.White
         Me.chk_remember.ForeColor = System.Drawing.Color.Black
         Me.chk_remember.Location = New System.Drawing.Point(199, 151)
+=======
+        Me.chk_remember.BackColor = System.Drawing.Color.Transparent
+        Me.chk_remember.ForeColor = System.Drawing.Color.White
+        Me.chk_remember.Location = New System.Drawing.Point(485, 148)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.chk_remember.Name = "chk_remember"
         Me.chk_remember.Size = New System.Drawing.Size(128, 17)
         Me.chk_remember.TabIndex = 12
         Me.chk_remember.Text = "Remember Username"
         Me.chk_remember.UseVisualStyleBackColor = False
         '
+<<<<<<< HEAD
+=======
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Yi Baiti", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.Location = New System.Drawing.Point(558, 62)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(134, 21)
+        Me.LinkLabel1.TabIndex = 13
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "สำหรับลูกค้าคลิกที่นี่ !"
+        '
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         'frm_login
         '
         Me.AcceptButton = Me.btn_login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.BackgroundImage = Global.coffeeshopMD.My.Resources.Resources.ป้ายร้านกาแฟ_1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CancelButton = Me.btn_exit
         Me.ClientSize = New System.Drawing.Size(439, 455)
         Me.ControlBox = False
+=======
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.CancelButton = Me.btn_exit
+        Me.ClientSize = New System.Drawing.Size(704, 496)
+        Me.ControlBox = False
+        Me.Controls.Add(Me.LinkLabel1)
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         Me.Controls.Add(Me.chk_remember)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -226,4 +320,8 @@ Partial Class frm_login
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents chk_remember As CheckBox
+<<<<<<< HEAD
+=======
+    Friend WithEvents LinkLabel1 As LinkLabel
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
 End Class

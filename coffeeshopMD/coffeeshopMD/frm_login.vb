@@ -34,6 +34,24 @@ Public Class frm_login
             txt_username.Select()
         Else
             msg_ok("login สำเร็จ")
+<<<<<<< HEAD
+=======
+            frm_main.Show()
+            Me.Hide()
+
+            sql = "select * from users where users_username='" & txt_username.Text & "' and users_password ='" & txt_password.Text & "'"
+            Dim dts As DataTable = cmd_excuteDataTable()
+
+            With frm_main
+                .lbl_username.Text = dts.Rows(0)("users_username")
+                .lbl_name.Text = dts.Rows(0)("users_name") & "" & dts.Rows(0)("users_lastname")
+                .lbl_tel.Text = dts.Rows(0)("users_tel")
+                .lbl_email.Text = dts.Rows(0)("users_email")
+                .lbl_timelogin.Text = Date.Now
+            End With
+
+
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
         End If
     End Sub
 
@@ -63,4 +81,13 @@ Public Class frm_login
 
         My.Settings.Save()
     End Sub
+<<<<<<< HEAD
+=======
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Me.Hide()
+        frm_customer_login.Show()
+
+    End Sub
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
 End Class

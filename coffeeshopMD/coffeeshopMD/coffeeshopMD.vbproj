@@ -14,6 +14,10 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+<<<<<<< HEAD
+=======
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -26,7 +30,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+<<<<<<< HEAD
     <IsWebBootstrapper>false</IsWebBootstrapper>
+=======
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -97,6 +104,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="code.vb" />
+<<<<<<< HEAD
+=======
+    <Compile Include="frm_coffeeSale.Designer.vb">
+      <DependentUpon>frm_coffeeSale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_coffeeSale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_customer.Designer.vb">
+      <DependentUpon>frm_customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_customer_main.Designer.vb">
+      <DependentUpon>frm_customer_main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_customer_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_employee.Designer.vb">
+      <DependentUpon>frm_employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
     <Compile Include="frm_login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -104,16 +138,69 @@
       <DependentUpon>frm_login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="frm_customer_login.Designer.vb">
+      <DependentUpon>frm_customer_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_customer_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
     <Compile Include="frm_main.Designer.vb">
       <DependentUpon>frm_main.vb</DependentUpon>
     </Compile>
     <Compile Include="frm_main.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="frm_manage_coffee.Designer.vb">
+      <DependentUpon>frm_manage_coffee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_manage_coffee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_promotion.Designer.vb">
+      <DependentUpon>frm_promotion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_promotion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_select_customer.Designer.vb">
+      <DependentUpon>frm_select_customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_select_customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_select_price.Designer.vb">
+      <DependentUpon>frm_select_price.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_select_price.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_total.Designer.vb">
+      <DependentUpon>frm_total.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_total.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_usepromotion.Designer.vb">
+      <DependentUpon>frm_usepromotion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_usepromotion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListView_Control.vb" />
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+<<<<<<< HEAD
+=======
+      <DesignTime>True</DesignTime>
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -127,12 +214,54 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <EmbeddedResource Include="frm_login.resx">
       <DependentUpon>frm_login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_main.resx">
       <DependentUpon>frm_main.vb</DependentUpon>
     </EmbeddedResource>
+=======
+    <EmbeddedResource Include="frm_coffeeSale.resx">
+      <DependentUpon>frm_coffeeSale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_customer.resx">
+      <DependentUpon>frm_customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_customer_main.resx">
+      <DependentUpon>frm_customer_main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_employee.resx">
+      <DependentUpon>frm_employee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_customer_login.resx">
+      <DependentUpon>frm_customer_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_main.resx">
+      <DependentUpon>frm_main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_manage_coffee.resx">
+      <DependentUpon>frm_manage_coffee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_promotion.resx">
+      <DependentUpon>frm_promotion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_select_customer.resx">
+      <DependentUpon>frm_select_customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_select_price.resx">
+      <DependentUpon>frm_select_price.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_total.resx">
+      <DependentUpon>frm_total.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_usepromotion.resx">
+      <DependentUpon>frm_usepromotion.vb</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -185,5 +314,44 @@
   <ItemGroup>
     <None Include="Resources\kisspng-coffee.png" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <None Include="Resources\94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9286.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dufault_coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user11.png" />
+  </ItemGroup>
+>>>>>>> 317f6034dc906611cc053a96b1d95a26427cf4e3
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
